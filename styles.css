@@ -206,7 +206,7 @@ section { padding: clamp(4.5rem, 9vw, 8rem) var(--gutter); }
   max-width: var(--container);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1.05fr;
+  grid-template-columns: 0.85fr 1.6fr;
   gap: clamp(2rem, 5vw, 4rem);
   align-items: center;
 }
@@ -230,7 +230,6 @@ section { padding: clamp(4.5rem, 9vw, 8rem) var(--gutter); }
   align-items: center;
   justify-content: center;
   aspect-ratio: 1538 / 1018;
-  animation: float 9s ease-in-out infinite;
 }
 .hero__visual-frame::before {
   content: "";
