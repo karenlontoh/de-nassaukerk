@@ -228,7 +228,7 @@ section { padding: clamp(4.5rem, 9vw, 8rem) var(--gutter); }
   display: flex;
   align-items: center;
   justify-content: center;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1538 / 1018;
   animation: float 9s ease-in-out infinite;
 }
 .hero__visual-frame::before {
