@@ -425,7 +425,7 @@ section { padding: clamp(4.5rem, 9vw, 8rem) var(--gutter); }
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
   gap: clamp(2rem, 5vw, 4rem);
-  align-items: center;
+  align-items: start;
 }
 
 .showcase__stage {
@@ -537,11 +537,11 @@ section { padding: clamp(4.5rem, 9vw, 8rem) var(--gutter); }
   background: var(--ink-2);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 1.75rem;
+  padding: 1.85rem;
 }
-.specs__tile .icon { width: 24px; height: 24px; color: var(--gold); margin-bottom: 0.85rem; }
-.specs__tile h4 { font-size: 1.05rem; margin-bottom: 0.4rem; }
-.specs__tile p { color: var(--muted); font-size: 0.9rem; }
+.specs__tile .icon { width: 26px; height: 26px; color: var(--gold); margin-bottom: 0.9rem; }
+.specs__tile h4 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+.specs__tile p { color: var(--muted); font-size: 1.02rem; line-height: 1.5; }
 .specs__tile--large {
   background: linear-gradient(135deg, var(--ink-3), var(--ink-2));
   display: flex;
@@ -549,8 +549,8 @@ section { padding: clamp(4.5rem, 9vw, 8rem) var(--gutter); }
   gap: 1.25rem;
   flex-wrap: wrap;
 }
-.specs__num { font-family: var(--font-display); font-size: 3rem; font-weight: 700; color: var(--gold-bright); }
-.specs__tile--large p { color: var(--muted); max-width: 30ch; }
+.specs__num { font-family: var(--font-display); font-size: 3.2rem; font-weight: 700; color: var(--gold-bright); }
+.specs__tile--large p { color: var(--muted); font-size: 1.02rem; max-width: 30ch; }
 
 /* ---------- preorder ---------- */
 .preorder__inner {
