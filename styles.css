@@ -545,7 +545,7 @@ section { padding: clamp(4.5rem, 9vw, 8rem) var(--gutter); }
 .specs__tile--large {
   background: linear-gradient(135deg, var(--ink-3), var(--ink-2));
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 1.25rem;
   flex-wrap: wrap;
 }
