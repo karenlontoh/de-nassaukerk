@@ -255,12 +255,11 @@ section { padding: clamp(4.5rem, 9vw, 8rem) var(--gutter); }
 }
 
 /* ---------- panorama (full-bleed archival strip) ---------- */
-.panorama { padding: 0 clamp(1rem, 4vw, 2.5rem); }
+.panorama { padding: 0; }
 .panorama__figure { margin: 0; }
 .panorama__frame {
-  width: min(100%, 900px);
-  margin: 0 auto;
-  height: clamp(220px, 30vw, 420px);
+  width: 100%;
+  height: clamp(140px, 16vw, 220px);
   overflow: hidden;
   position: relative;
 }
